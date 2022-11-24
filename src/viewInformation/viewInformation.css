@@ -1,0 +1,43 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+    background-color: rgb(51,51,51);
+    color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: 0px;
+  }
+  /* will make custom scroll bar later */
+  ::-webkit-scrollbar {
+    display: none;
+    }
+  
+  .backButton
+  {
+    cursor: pointer;
+    display: inline;
+    border: 3px solid #FF9800;
+    border-radius: 10px;
+  }
+
+  .class
+  {
+    max-width: 38rem;
+  }
+
+  .listDetails
+  {
+    max-width: 38rem;
+  }
+
+  .example
+  {
+    border: 3px solid #505050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+  }
